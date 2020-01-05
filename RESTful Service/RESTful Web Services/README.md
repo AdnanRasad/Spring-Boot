@@ -1,5 +1,5 @@
 
-What I have done here?
+# What I have done here?
 
 
 Goal: When this Spring Boot Appliation is run, it will show Hello World with a local time. But this has to be done using Restful Web Services.
@@ -10,8 +10,7 @@ Key Points:
 
 2. Spring Boot is an application that has its own server. So no need to run it on a server, simply run it as a java application.
 
-3.
-  @RequestMapping("/greeting")
+3.@RequestMapping("/greeting")
   public Greeting greeting(@RequestParam(value="name", defaultValue="World") String name) {
     return new "Hello World"+value;
 
@@ -19,7 +18,7 @@ Key Points:
 
 
 
-#Recall:
+# Recall:
 
 What is Rest?
 
@@ -43,7 +42,7 @@ Self-descriptive messages: Resources are decoupled from their representation so 
 
 Stateful interactions through hyperlinks: Every interaction with a resource is stateless; that is, request messages are self-contained. Stateful interactions are based on the concept of explicit state transfer. Several techniques exist to exchange state, such as URI rewriting, cookies, and hidden form fields. State can be embedded in response messages to point to valid future states of the interaction. See Using Entity Providers to Map HTTP Response and Request Entity Bodies and “Building URIs” in the JAX-RS Overview document for more information.
 
-#Rest in Spring Boot
+# Rest in Spring Boot
 
 This has a very good guide to start with restful web services with Spring Boot
 https://spring.io/guides/gs/rest-service/
