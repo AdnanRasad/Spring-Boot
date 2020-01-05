@@ -1,3 +1,24 @@
+
+What I have done here?
+
+
+Goal: When this Spring Boot Appliation is run, it will show Hello World with a local time. But this has to be done using Restful Web Services.
+
+Key Points: 
+
+1. REST!=Http but HTTP is a contract, a communication protocol and REST is a concept, an architectural style which may use HTTP, FTP or other communication protocols but is widely used with HTTP. 
+
+2. Spring Boot is an application that has its own server. So no need to run it on a server, simply run it as a java application.
+
+3.
+  @RequestMapping("/greeting")
+  public Greeting greeting(@RequestParam(value="name", defaultValue="World") String name) {
+    return new "Hello World"+value;
+
+"The @RequestMapping annotation ensures that HTTP requests to /greeting are mapped to the greeting() method.The above example does not specify GET vs. PUT, POST, and so forth, because @RequestMapping maps all HTTP operations by default. Use @RequestMapping(method=GET) to narrow this mapping."
+
+
+
 #Recall:
 
 What is Rest?
@@ -24,8 +45,7 @@ Stateful interactions through hyperlinks: Every interaction with a resource is s
 
 #Rest in Spring Boot
 
-
+This has a very good guide to start with restful web services with Spring Boot
 https://spring.io/guides/gs/rest-service/
-
 
 
