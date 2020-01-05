@@ -2,7 +2,7 @@
 # What I have done here?
 
 
-Goal: When this Spring Boot Appliation is run, it will show Hello World with a local time. But this has to be done using Restful Web Services.
+Goal: When this Spring Boot Appliation is run, it will show Hello World with a server time. But this has to be done using Restful Web Services.
 
 Key Points: 
 
