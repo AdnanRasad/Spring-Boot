@@ -1,3 +1,3 @@
 # Project Dependencies: 
 
-Spring Web Starter.
+Spring Web (RESTful and Embedded Tomcat).
