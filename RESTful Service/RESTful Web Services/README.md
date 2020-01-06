@@ -2,7 +2,14 @@
 # What I have done here?
 
 
-Goal: When this Spring Boot Appliation is run, it will show Hello World with a server time. But this has to be done using Restful Web Services.
+Goal: 
+
+1.When this Spring Boot Appliation is run, it will show Hello World with a server time. But this has to be done using Restful Web Services.
+
+
+2.Connect with a DB, a mysql DB thn have concrete examples of all GET, PUT, POST & Patch methods with @GetMapping, @POSTMapping etc and also do the same with RequestMapping.
+
+3.Do Step no. 2 but with NoSQL Database
 
 Key Points: 
 
