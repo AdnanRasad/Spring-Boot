@@ -1,3 +1,3 @@
-Project Dependencies: 
+# Project Dependencies: 
 
 Spring Web Starter.
