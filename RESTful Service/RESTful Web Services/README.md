@@ -7,7 +7,7 @@ Goal:
 1.When this Spring Boot Appliation is run, it will show Hello World with a server time. But this has to be done using Restful Web Services.
 
 
-2. Make a mysql DB. Add mappings, such as "/", "alldata", "delete" etc and use Rest like step 1 to connect with the methods from browser to Spring Boot. In those methods use Hibernate API to fetch and manipulate the Database.
+2.Make a mysql DB. Add mappings, such as "/", "alldata", "delete" etc and use Rest like step 1 to connect with the methods from browser to Spring Boot. In those methods use Hibernate API to fetch and manipulate the Database.
 
 
 3.Do Step no. 2 but with NoSQL Database
