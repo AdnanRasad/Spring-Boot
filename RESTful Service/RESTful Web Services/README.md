@@ -16,6 +16,8 @@ Key Points:
 
 "The @RequestMapping annotation ensures that HTTP requests to /greeting are mapped to the greeting() method.The above example does not specify GET vs. PUT, POST, and so forth, because @RequestMapping maps all HTTP operations by default. Use @RequestMapping(method=GET) to narrow this mapping."
 
+4. Remember to maintain package name. If the application package is com.adnan. Then the RequestMapping methods has to be in a package named : com.adnan.something...
+
 
 
 # Recall:
