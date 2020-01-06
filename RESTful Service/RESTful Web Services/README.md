@@ -19,7 +19,7 @@ Key Points:
 
 2. Spring Boot is an application that has its own server. So no need to run it on a server, simply run it as a java application.
 
-3.@RequestMapping("/greeting")
+3. @RequestMapping("/greeting")
   public Greeting greeting(@RequestParam(value="name", defaultValue="World") String name) {
     return new "Hello World"+value;
 
